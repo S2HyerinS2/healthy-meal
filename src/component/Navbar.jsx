@@ -18,6 +18,10 @@ function Navbar() {
         <NavLink to='/meals'>식단관리</NavLink>
         <NavLink to='/tips'>건강팁</NavLink>
         <NavLink to='/about'>MY PLATE</NavLink>
+
+        {/* 
+          Link => a / NavLink => Link와 비슷하지만 삼항연산자 사용 가능, 클래스 붙이기 가능
+        */}
       </nav>
     </header>
   )
